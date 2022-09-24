@@ -30,7 +30,7 @@ def explore_data():
     # "375 Valencia St, San Francisco, CA, 94103"
     print(f'{restaurant_1["address"]}, {restaurant_1["city"]}, {restaurant_1["state"]}, {restaurant_1["zip_code"]}')
 
-explore_data()
+# explore_data()
 
 
 def favorite_restaurant():
@@ -68,7 +68,7 @@ def favorite_restaurant():
     # 2.7 TODO: Print out the restaurant's new address by printing the dictionary's value 
     # for the key `address`
     print(favorite_restaurant["address"])
-favorite_restaurant()
+# favorite_restaurant()
 
 def clean_print():
     # It's hard to read the contents of a dictionary when we print the whole thing out.
@@ -80,5 +80,5 @@ def clean_print():
     # etc etc
     for key, info in restaurant_1.items():
         print(f"{key}: {info}")
-clean_print()
+# clean_print()
         
